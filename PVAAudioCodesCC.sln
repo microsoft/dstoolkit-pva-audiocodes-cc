@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoCustomerService", "ContosoCustomerService\ContosoCustomerService.csproj", "{82FFCCCC-4076-45C9-90B2-E0FE9D56A3D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8066A4E-94DC-4761-80D2-10463E15BD17}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AudioLogos", "AudioLogos", "{9E8B8514-46A7-475E-A85A-0F576612F293}"
+	ProjectSection(SolutionItems) = preProject
+		AudioLogos\audiologo.wav = AudioLogos\audiologo.wav
+		AudioLogos\tada.wav = AudioLogos\tada.wav
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{E713DCB8-32CE-4CAF-AFD4-E6F68B2DA31F}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\AudioCodesBotWizard.png = Doc\AudioCodesBotWizard.png
+		Doc\AudioCodesPVABot.png = Doc\AudioCodesPVABot.png
+		Doc\CloneToZip.png = Doc\CloneToZip.png
+		Doc\ConfigSettings.png = Doc\ConfigSettings.png
+		Doc\ConfigSettingsValues.png = Doc\ConfigSettingsValues.png
+		Doc\ContactCenterArchitecture.png = Doc\ContactCenterArchitecture.png
+		Doc\ContactCenterArchitecture.vsdx = Doc\ContactCenterArchitecture.vsdx
+		Doc\ContactCenterCoreElements.png = Doc\ContactCenterCoreElements.png
+		Doc\GeneralSettings.png = Doc\GeneralSettings.png
+		Doc\NoAuthenticationSelection.png = Doc\NoAuthenticationSelection.png
+		Doc\OpenAssistant.png = Doc\OpenAssistant.png
+		Doc\OpenFrameworkWizard.png = Doc\OpenFrameworkWizard.png
+		Doc\ProvisionPhoneNumber.png = Doc\ProvisionPhoneNumber.png
+		Doc\PublishAssistant.png = Doc\PublishAssistant.png
+		Doc\SetSecurityForAssistant.png = Doc\SetSecurityForAssistant.png
+		Doc\vaicBotDetailsTab.png = Doc\vaicBotDetailsTab.png
+		Doc\vaicBotSettingsTab.png = Doc\vaicBotSettingsTab.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{155A6B92-18F7-4C99-ADFC-93278263811A}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\deploy.ps1 = Deployment\deploy.ps1
+		Deployment\deploy_app_insights.ps1 = Deployment\deploy_app_insights.ps1
+		Deployment\deploy_app_service.ps1 = Deployment\deploy_app_service.ps1
+		Deployment\deploy_function_app.ps1 = Deployment\deploy_function_app.ps1
+		Deployment\deploy_storage.ps1 = Deployment\deploy_storage.ps1
+		Deployment\prepopulate_audiologos.ps1 = Deployment\prepopulate_audiologos.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82FFCCCC-4076-45C9-90B2-E0FE9D56A3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FFCCCC-4076-45C9-90B2-E0FE9D56A3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FFCCCC-4076-45C9-90B2-E0FE9D56A3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FFCCCC-4076-45C9-90B2-E0FE9D56A3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {075044CF-ADC1-4CA1-9726-9F8654BD05B6}
+	EndGlobalSection
+EndGlobal
